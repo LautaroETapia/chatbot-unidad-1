@@ -1,0 +1,432 @@
+Unidad Nº 1: Introducción a los Dispositivos Móviles y Sistemas
+Operativos
+1. Tipos de Dispositivos Móviles y sus Características Técnicas
+1.1 Definición y evolución del concepto "dispositivo móvil"
+Un dispositivo móvil es cualquier equipo electrónico de tamaño reducido, con capacidad de
+procesamiento, conectividad inalámbrica y alimentación autónoma mediante batería, diseñado
+para ser transportado y utilizado en movimiento. A lo largo de las últimas décadas, estos
+dispositivos han evolucionado desde simples teléfonos celulares analógicos hasta ecosistemas
+computacionales completos que integran sensores, cámaras, GPS, biometría y conectividad de
+alta velocidad.
+La evolución puede resumirse en grandes etapas: los teléfonos celulares de primera generación
+(1G) en los años 80, la digitalización con 2G en los 90, la convergencia con datos móviles en 3G
+(2000s), la banda ancha móvil con 4G/LTE (2010s) y la hiperconectividad actual con 5G (2020s
+en adelante).
+1.2 Clasificación de dispositivos móviles
+Smartphones (teléfonos inteligentes). Son el dispositivo móvil por excelencia en la actualidad.
+Combinan las funciones de un teléfono celular con las de un computador de bolsillo. Poseen
+pantallas táctiles de alta resolución (generalmente entre 6" y 7"), procesadores multinúcleo (4 a 8
+núcleos), memorias RAM de entre 4 GB y 16 GB, almacenamiento interno que puede superar los
+512 GB, cámaras de múltiples lentes con resoluciones de 48 MP a 200 MP, y conectividad Wi-Fi,
+Bluetooth, NFC y 5G. Se estima que a nivel mundial existen más de 4.700 millones de usuarios de
+smartphones, con más de 7.000 millones de dispositivos activos (considerando que muchos
+usuarios poseen más de un equipo).
+Tablets (tabletas). Son dispositivos con pantallas más grandes (típicamente entre 8" y 13"),
+orientados al consumo de contenido multimedia, la lectura, la educación y la productividad
+ligera. Aunque comparten el mismo tipo de sistema operativo que los smartphones (Android o
+iPadOS), suelen tener mayor capacidad de batería y una experiencia visual más inmersiva. El
+mercado de tablets está repartido de forma bastante equilibrada: iPadOS de Apple concentra
+aproximadamente el 52% de la cuota global, mientras que Android ocupa el 48% restante.
+Wearables (dispositivos vestibles). Esta categoría incluye relojes inteligentes (smartwatches),
+pulseras de actividad (fitness bands), auriculares inteligentes (hearables) y, más recientemente,
+anillos inteligentes. Los smartwatches más avanzados, como el Apple Watch o los dispositivos
+con Wear OS de Google, incorporan sensores de frecuencia cardíaca, ECG, oximetría (SpO2),
+acelerómetro, giroscopio, GPS integrado y conectividad LTE independiente. Su rol se ha
+expandido significativamente hacia el monitoreo de salud y el fitness.
+
+-- 1 of 11 --
+
+Dispositivos plegables y de forma flexible. Los smartphones plegables (foldables) representan
+una categoría emergente que ha ganado tracción comercial. Fabricantes como Samsung, Oppo y
+Honor lideran este segmento, que en 2025 representó aproximadamente el 5% de las ventas
+globales de smartphones. Estos dispositivos ofrecen pantallas más grandes (desplegadas pueden
+superar las 7,5") sin sacrificar portabilidad, utilizando tecnologías de pantalla OLED flexible.
+Lectores de e-books. Dispositivos especializados como el Amazon Kindle utilizan pantallas de
+tinta electrónica (e-ink) que simulan el papel impreso, con bajo consumo energético y excelente
+legibilidad a la luz del sol. Están optimizados para una función específica: la lectura.
+Otros dispositivos. El ecosistema móvil se extiende a dispositivos IoT (Internet of Things)
+portátiles, cámaras de acción, consolas de juegos portátiles (como la Nintendo Switch o la Steam
+Deck), drones con control remoto por app y dispositivos de realidad extendida (XR) como visores
+de realidad virtual y aumentada.
+1.3 Características técnicas fundamentales
+Independientemente del tipo de dispositivo, existen parámetros técnicos comunes que definen
+sus capacidades:
+Procesador (SoC – System on a Chip). Los dispositivos móviles utilizan procesadores basados
+en la arquitectura ARM, diseñados para ofrecer un equilibrio entre rendimiento y eficiencia
+energética. Los principales SoC del mercado incluyen los Apple A-series y M-series (para
+dispositivos Apple), los Qualcomm Snapdragon (ampliamente utilizados en Android), los
+Samsung Exynos, los MediaTek Dimensity y los Google Tensor. Estos chips integran CPU, GPU,
+NPU (Neural Processing Unit para IA), módem 5G y procesador de señal de imagen (ISP) en un
+solo encapsulado.
+Memoria RAM y almacenamiento. La RAM, de tipo LPDDR5 o LPDDR5X en los dispositivos
+más actuales, permite la ejecución simultánea de aplicaciones. El almacenamiento interno utiliza
+memorias flash de tipo UFS 4.0, que ofrecen velocidades de lectura/escritura superiores a los 4
+GB/s.
+Pantalla. Las tecnologías dominantes son OLED (en sus variantes AMOLED y LTPO-OLED) y
+LCD (IPS). Las pantallas OLED ofrecen negros profundos, mayor contraste y menor consumo en
+fondos oscuros, mientras que las LCD son más económicas. Las tasas de refresco han
+evolucionado de los 60 Hz estándar a 90 Hz, 120 Hz e incluso 144 Hz, mejorando la fluidez de la
+interfaz.
+Batería y carga. Las capacidades típicas oscilan entre 3.500 mAh y 6.000 mAh en smartphones.
+Las tecnologías de carga rápida (Quick Charge, USB Power Delivery, carga propietaria de hasta
+240W) y carga inalámbrica (Qi2) son cada vez más comunes.
+Conectividad. Los dispositivos actuales soportan Wi-Fi 6E/7, Bluetooth 5.3/5.4, NFC, UWB
+(Ultra-Wideband), GPS multibanda y redes celulares 4G/5G. En 2025, los dispositivos con 5G
+representan aproximadamente el 77% de los envíos globales de smartphones.
+Sensores. Un smartphone moderno incorpora típicamente más de 10 sensores: acelerómetro,
+giroscopio, magnetómetro, barómetro, sensor de proximidad, sensor de luz ambiental, sensor de
+
+-- 2 of 11 --
+
+huellas dactilares, sensor LiDAR (en algunos modelos), sensor de temperatura y sensores
+biométricos faciales.
+2. Sistemas Operativos Móviles: iOS y Android
+2.1 Panorama general del mercado
+El mercado de sistemas operativos móviles está dominado por un duopolio estable: Android (de
+Google) e iOS (de Apple) concentran, en conjunto, más del 99% de la cuota de mercado global. A
+principios de 2026, según datos de StatCounter, Android mantiene aproximadamente el 70% del
+mercado global y iOS cerca del 29%. Esta distribución se ha mantenido relativamente estable
+durante los últimos años, aunque con dinámicas regionales muy diferentes.
+Un tercer actor ha emergido recientemente: HarmonyOS NEXT de Huawei, que desde 2025 se
+instala exclusivamente en todos los dispositivos nuevos de Huawei. Este sistema operativo ha
+logrado superar a iOS en China durante cuatro trimestres consecutivos en 2024, alcanzando un
+19% de cuota en ese mercado, aunque su presencia fuera de China es mínima.
+2.2 Android
+Origen y filosofía. Android fue inicialmente desarrollado por Android Inc. (fundada en 2003) y
+adquirido por Google en 2005. Se lanzó oficialmente en 2008 con el HTC Dream (T-Mobile G1).
+Su filosofía se basa en el código abierto: el núcleo del sistema, basado en el kernel de Linux, se
+distribuye bajo el Android Open Source Project (AOSP), lo que permite a cualquier fabricante
+adaptarlo a sus dispositivos.
+Arquitectura del sistema. La arquitectura de Android se organiza en capas: en la base se
+encuentra el kernel de Linux (gestión de hardware, drivers, seguridad); sobre él se ubica la capa
+de abstracción de hardware (HAL); luego el entorno de ejecución Android (ART – Android
+Runtime) junto con las bibliotecas nativas (escritas en C/C++); a continuación, el framework de
+aplicaciones Java/Kotlin; y finalmente las aplicaciones del usuario. A partir de Android 12, Google
+introdujo el sistema de diseño Material You, que permite una personalización visual profunda
+basada en los colores del fondo de pantalla del usuario.
+Versiones relevantes. La versión más reciente estable es Android 15, que ha alcanzado una
+adopción del 42,87% hacia mediados de 2025. Android 14 retrocedió al 18,13% a medida que los
+usuarios migran a la versión más nueva. Las versiones 12 y 13 combinadas representan
+aproximadamente el 29% del mercado, lo que evidencia la fragmentación — uno de los desafíos
+históricos de la plataforma.
+Ecosistema y distribución. La tienda oficial de aplicaciones es Google Play Store, que aloja
+aproximadamente 2,06 millones de aplicaciones. Android se distribuye a través de una amplia
+red de fabricantes (Samsung, Xiaomi, Oppo, Vivo, Google Pixel, Motorola, OnePlus, entre otros),
+lo que le permite cubrir todos los segmentos de precio: desde dispositivos de entrada por menos
+de USD 100 hasta flagships de más de USD 1.500. Samsung lidera entre los fabricantes Android
+
+-- 3 of 11 --
+
+con aproximadamente el 30,8% de cuota de mercado del ecosistema, seguido de Xiaomi (15,9%)
+y Vivo (11,2%).
+Lenguajes de desarrollo. Los lenguajes principales para el desarrollo nativo en Android son
+Kotlin (lenguaje oficial recomendado por Google desde 2019) y Java. El entorno de desarrollo
+oficial es Android Studio, basado en IntelliJ IDEA. Para el desarrollo multiplataforma, se utilizan
+frameworks como Flutter (Dart), React Native (JavaScript/TypeScript) y Kotlin Multiplatform.
+Fortalezas. Código abierto y personalizable, amplia diversidad de dispositivos y puntos de
+precio, mayor cuota de mercado global (especialmente en mercados emergentes como India,
+donde alcanza el 92%), flexibilidad para instalar aplicaciones de fuentes externas (sideloading),
+mayor variedad de formatos de dispositivos (plegables, robustos, especializados).
+Desafíos. Fragmentación de versiones (muchos dispositivos no reciben actualizaciones
+oportunas), inconsistencias en actualizaciones de seguridad entre fabricantes, mayor superficie
+de ataque para malware debido a la apertura del ecosistema.
+2.3 iOS
+Origen y filosofía. iOS fue presentado por Steve Jobs en enero de 2007 junto con el primer
+iPhone, bajo el nombre "iPhone OS". Es un sistema operativo propietario y de código cerrado,
+desarrollado exclusivamente por Apple para su propio hardware. Su filosofía se centra en la
+integración vertical: Apple controla tanto el hardware como el software, lo que permite una
+optimización y coherencia de experiencia de usuario difícil de replicar en ecosistemas abiertos.
+Arquitectura del sistema. iOS se basa en el kernel XNU (una combinación de componentes
+Mach y BSD, derivados de Unix). Su arquitectura incluye las capas Core OS (kernel, seguridad,
+sistema de archivos), Core Services (bases de datos, networking, localización), Media (gráficos,
+audio, video) y Cocoa Touch (la capa de interfaz de usuario y frameworks de alto nivel como
+UIKit y SwiftUI). Desde iOS 14, Apple introdujo los App Clips (mini-aplicaciones) y las App
+Library, y con iOS 16 en adelante ha incorporado personalización avanzada de la pantalla de
+bloqueo, modo StandBy e integración profunda con inteligencia artificial.
+Versiones relevantes. La versión más reciente es iOS 18, lanzada en septiembre de 2024. Apple
+tiene una ventaja notable en la adopción de actualizaciones: históricamente, más del 70% de los
+usuarios de iOS instalan la última versión del sistema dentro de los primeros meses de su
+lanzamiento, en contraste con la adopción más fragmentada de Android.
+Ecosistema y distribución. La App Store de Apple aloja aproximadamente 2,1-2,2 millones de
+aplicaciones, cifra que ha convergido con la de Google Play tras la depuración masiva que Google
+realizó eliminando millones de aplicaciones abandonadas o de baja calidad. A pesar de tener una
+base de usuarios menor (aproximadamente 1.560 millones de usuarios a nivel global frente a los
+3.900 millones de Android), iOS genera significativamente más ingresos por aplicaciones:
+aproximadamente el 70% del gasto global de consumidores en apps móviles proviene de la App
+Store.
+Lenguajes de desarrollo. El lenguaje principal para desarrollo nativo en iOS es Swift
+(introducido por Apple en 2014), que reemplazó progresivamente a Objective-C. El entorno de
+
+-- 4 of 11 --
+
+desarrollo oficial es Xcode, disponible exclusivamente en macOS. El framework moderno de
+interfaces es SwiftUI, que permite un desarrollo declarativo.
+Fortalezas. Experiencia de usuario consistente y pulida, actualizaciones centralizadas y rápidas
+para todos los dispositivos compatibles, mayor monetización para desarrolladores (los usuarios
+de iOS gastan significativamente más en aplicaciones), ecosistema integrado con otros
+productos Apple (Mac, iPad, Apple Watch, AirPods, Apple TV), seguridad reforzada por el control
+vertical del hardware y software.
+Desafíos. Ecosistema cerrado con menor flexibilidad de personalización, costo de dispositivos
+significativamente más alto (precio promedio de venta de ~USD 930 frente a ~USD 370 de
+Android), dependencia exclusiva del hardware Apple, restricciones históricas para la instalación
+de tiendas de aplicaciones alternativas (aunque la legislación europea ha forzado cierta
+apertura).
+2.4 Comparación sintética entre Android e iOS
+Aspecto 	Android 	iOS
+Cuota de mercado global (2026) 	~70% 	~29%
+Usuarios activos globales 	~3.900 millones 	~1.560 millones
+Modelo de negocio 	Abierto / Licencia gratuita 	Cerrado / Propietario
+Fabricantes de hardware 	Múltiples (Samsung, Xiaomi, etc.) 	Solo Apple
+Tienda de apps 	Google Play (~2,06M apps) 	App Store (~2,1M apps)
+Lenguaje nativo principal 	Kotlin / Java 	Swift
+IDE oficial 	Android Studio 	Xcode
+Ingresos por apps (2025) 	~30% del gasto global 	~70% del gasto global
+Adopción de última versión 	~43% (Android 15, mid-2025) 	>70% (iOS 18, pocos meses)
+Precio promedio del dispositivo 	~USD 370 	~USD 930
+Dominio regional 	Asia, África, Latinoamérica 	EE.UU., Japón, Reino Unido
+3. Tendencias Actuales y Desafíos en el Mercado de Aplicaciones Móviles
+3.1 Dimensiones del mercado
+El mercado de aplicaciones móviles ha alcanzado dimensiones extraordinarias. En 2025, el gasto
+global de consumidores en aplicaciones y juegos móviles alcanzó los USD 155.800 millones, un
+
+-- 5 of 11 --
+
+crecimiento del 21,6% interanual. Se proyecta que los ingresos globales por aplicaciones móviles
+superen los USD 230.000 millones para 2026. Un hito significativo ocurrió en 2025: por primera
+vez, las aplicaciones no relacionadas con juegos generaron más ingresos (USD 82.600 millones)
+que los juegos (USD 72.200 millones), impulsadas principalmente por las suscripciones, que
+representaron cerca de la mitad del gasto total (USD 79.500 millones).
+3.2 Tendencias tecnológicas
+Inteligencia Artificial y aprendizaje automático en el dispositivo. La integración de modelos de
+IA directamente en el dispositivo (on-device AI) es una de las tendencias más disruptivas. Los
+procesadores modernos incluyen unidades de procesamiento neuronal (NPU) dedicadas que
+permiten ejecutar tareas de IA sin depender de la nube, como reconocimiento de voz, generación
+de texto, mejora fotográfica computacional y traducción en tiempo real. Apple Intelligence,
+Gemini Nano de Google y los modelos Galaxy AI de Samsung son ejemplos concretos de esta
+convergencia.
+5G y edge computing. La conectividad 5G, presente en el 77% de los dispositivos enviados en
+2025, está habilitando nuevas categorías de aplicaciones que requieren baja latencia y alto ancho
+de banda, como la realidad aumentada en tiempo real, el cloud gaming, la telemedicina y los
+vehículos autónomos. El edge computing complementa esta tendencia al acercar el
+procesamiento a los dispositivos, reduciendo la latencia.
+Dispositivos plegables y multi-pantalla. Los dispositivos plegables presentan nuevos desafíos y
+oportunidades para los desarrolladores: las aplicaciones deben adaptarse dinámicamente a
+cambios de tamaño y relación de aspecto de pantalla, ofrecer experiencias de "continuidad" al
+plegar/desplegar, y aprovechar las posibilidades de multi-ventana.
+Aplicaciones de super-app. El modelo de "super-app" — una sola aplicación que integra
+múltiples servicios como mensajería, pagos, comercio electrónico, transporte y más —
+popularizado por WeChat en China, está siendo replicado en mercados emergentes y
+explorándose en mercados occidentales. Esta tendencia desafía el modelo tradicional de una
+aplicación por servicio.
+Modelo de suscripción como paradigma dominante. El modelo de ingresos por suscripción ha
+superado a las compras únicas y a la publicidad in-app como principal fuente de monetización.
+Con USD 79.500 millones en 2025, las suscripciones representan aproximadamente la mitad de
+todo el gasto en aplicaciones, con iOS capturando cerca de tres cuartas partes de ese volumen.
+Realidad aumentada (AR) y experiencias inmersivas. Los frameworks ARKit (iOS) y ARCore
+(Android) permiten a los desarrolladores crear experiencias de realidad aumentada accesibles
+para miles de millones de dispositivos. Las aplicaciones de AR en comercio electrónico (prueba
+virtual de productos), educación, navegación y entretenimiento continúan creciendo.
+3.3 Desafíos del mercado
+Fragmentación del ecosistema Android. Con cientos de fabricantes, miles de modelos de
+dispositivos y múltiples versiones activas del sistema operativo, garantizar que una aplicación
+funcione correctamente en todos los escenarios es un desafío significativo de testing y calidad.
+
+-- 6 of 11 --
+
+Descubrimiento y retención de usuarios. Con más de 2 millones de apps en cada tienda, lograr
+visibilidad y retener usuarios es cada vez más difícil. Las tasas de desinstalación son altas:
+estudios indican que la mayoría de las aplicaciones son abandonadas dentro de los primeros 30
+días tras su descarga.
+Privacidad y regulación. La creciente preocupación por la privacidad de datos ha llevado a
+regulaciones como el GDPR europeo, la CCPA de California y legislaciones similares en otras
+jurisdicciones. Apple introdujo App Tracking Transparency (ATT) a partir de iOS 14.5, obligando
+a las apps a solicitar permiso explícito para rastrear al usuario, lo que impactó significativamente
+los modelos de publicidad móvil.
+Seguridad. El malware móvil, el phishing, las vulnerabilidades en APIs y la suplantación de
+identidad digital son amenazas crecientes. Android, por su naturaleza más abierta,
+históricamente presenta una superficie de ataque más amplia, aunque ambas plataformas han
+reforzado significativamente sus mecanismos de seguridad.
+Costos de desarrollo y mantenimiento. Desarrollar y mantener aplicaciones nativas para ambas
+plataformas simultáneamente requiere equipos especializados, lo que eleva costos. Los
+frameworks multiplataforma (Flutter, React Native, Kotlin Multiplatform, .NET MAUI) mitigan
+parcialmente este desafío, pero con compromisos en rendimiento o acceso a funcionalidades
+nativas.
+Políticas de las tiendas de aplicaciones. Las comisiones cobradas por Apple (hasta el 30%) y
+Google por las transacciones dentro de las aplicaciones han generado controversias legales y
+regulatorias a nivel mundial. La Ley de Mercados Digitales (DMA) de la Unión Europea ha
+forzado a Apple a permitir tiendas alternativas y métodos de pago externos en Europa.
+4. Consideraciones de Accesibilidad y Sostenibilidad en el Desarrollo Móvil
+4.1 Accesibilidad en aplicaciones móviles
+4.1.1 Contexto y relevancia
+La Organización Mundial de la Salud estima que más de 1.300 millones de personas en el mundo
+viven con alguna forma de discapacidad. Las aplicaciones móviles, que se han convertido en la
+puerta de acceso a servicios esenciales como la educación, la salud, la banca y la comunicación,
+deben ser diseñadas de manera inclusiva para no excluir a esta población. A pesar de ello,
+estudios recientes muestran que el 72% de los recorridos de usuario en aplicaciones móviles
+presentan barreras de accesibilidad.
+4.1.2 Marco normativo y estándares
+WCAG (Web Content Accessibility Guidelines). Aunque fueron originalmente diseñadas para
+contenido web, las WCAG del W3C son el estándar de referencia global para la accesibilidad
+digital y su aplicación se extiende plenamente a las aplicaciones móviles. Las versiones actuales
+relevantes son WCAG 2.1 y WCAG 2.2 (publicada en 2023 como recomendación del W3C). WCAG
+2.2 introduce criterios especialmente pertinentes para móviles, como tamaños mínimos de
+
+-- 7 of 11 --
+
+objetivos táctiles (al menos 24x24 píxeles CSS), alternativas a gestos de arrastre, y criterios
+mejorados para accesibilidad cognitiva. Se anticipa que WCAG 3.0, actualmente en desarrollo,
+adoptará un enfoque renovado con un sistema de puntuación gradual (de 0 a 4) en lugar del
+modelo binario de aprobado/reprobado actual, y abarcará explícitamente todo el ecosistema
+digital incluyendo apps móviles, software, documentos, interfaces de voz e IoT.
+Legislación aplicable. En Estados Unidos, la ADA (Americans with Disabilities Act) bajo su
+Título III se aplica cada vez más a las aplicaciones móviles, tratándolas como "acomodaciones
+públicas". En Europa, la European Accessibility Act (EAA) exigió conformidad desde junio de
+2025, y el estándar técnico EN 301 549 complementa las WCAG con requisitos específicos de
+software. Los litigios relacionados con accesibilidad digital han aumentado significativamente,
+con más de 4.500 demandas presentadas solo en EE.UU. en 2024.
+4.1.3 Principios POUR aplicados al desarrollo móvil
+Las WCAG se organizan alrededor de cuatro principios fundamentales, conocidos por el
+acrónimo POUR:
+Perceptible (Perceivable). El contenido debe poder ser percibido por los usuarios a través de al
+menos uno de sus sentidos. En el contexto móvil, esto implica proporcionar textos alternativos
+descriptivos para todas las imágenes e íconos, subtítulos y transcripciones para contenido de
+audio y video, contraste de color suficiente entre texto y fondo (ratio mínimo de 4.5:1 para texto
+normal), y no depender exclusivamente del color para transmitir información.
+Operable (Operable). La interfaz debe poder ser operada por todos los usuarios
+independientemente de cómo interactúen con el dispositivo. Esto incluye soporte completo para
+navegación por teclado externo, provisión de alternativas para gestos complejos (pellizcar,
+arrastrar) que puedan realizarse mediante acciones simples (toques, botones), objetivos táctiles
+de tamaño suficiente (mínimo 24x24 px según WCAG 2.2, recomendado 44x44 px), y tiempo
+suficiente para completar tareas sin presión temporal.
+Comprensible (Understandable). La información y la operación de la interfaz deben ser
+comprensibles. Esto significa usar lenguaje claro y sencillo, proporcionar mensajes de error
+informativos con sugerencias de corrección, mantener una navegación consistente y predecible,
+e identificar claramente los campos obligatorios y formatos esperados en formularios.
+Robusto (Robust). El contenido debe ser lo suficientemente robusto para funcionar con una
+amplia variedad de tecnologías de asistencia. En el desarrollo móvil, esto requiere compatibilidad
+plena con lectores de pantalla nativos (VoiceOver en iOS, TalkBack en Android), uso correcto de
+las APIs de accesibilidad de cada plataforma, etiquetado semántico adecuado de todos los
+elementos de la interfaz, y testing con tecnologías de asistencia reales.
+4.1.4 Herramientas y tecnologías de asistencia en plataformas móviles
+Cada plataforma ofrece un conjunto integrado de herramientas de accesibilidad:
+En iOS: VoiceOver (lector de pantalla), Zoom (magnificación), AssistiveTouch (acceso táctil
+alternativo), Switch Control (control por interruptores), Voice Control (control por voz),
+subtítulos en vivo y tipografías dinámicas.
+
+-- 8 of 11 --
+
+En Android: TalkBack (lector de pantalla), Select to Speak (lectura selectiva), BrailleBack
+(soporte para dispositivos Braille), Switch Access, Voice Access, magnificación y ajustes de
+tamaño de texto y pantalla.
+4.1.5 Tendencias emergentes en accesibilidad
+Las interfaces de voz como asistentes virtuales están evolucionando para ofrecer alternativas
+naturales a la interacción táctil y visual. La inteligencia artificial se está utilizando para generar
+automáticamente subtítulos, describir imágenes y adaptar interfaces en tiempo real según las
+necesidades del usuario. Cada vez más se consolida la perspectiva del "diseño inclusivo" no como
+un requisito de cumplimiento legal, sino como un principio fundamental de buen diseño que
+beneficia a todos los usuarios (personas mayores, usuarios con lesiones temporales, personas
+que operan el dispositivo en contextos difíciles).
+4.2 Sostenibilidad en el desarrollo móvil
+4.2.1 El impacto ambiental del ecosistema móvil
+El sector tecnológico contribuye con aproximadamente el 3,7% de las emisiones globales de
+gases de efecto invernadero, cifra comparable a la de la industria aeronáutica. Cada aplicación
+que se ejecuta consume energía: procesa datos en el dispositivo, se comunica con servidores,
+transfiere información a través de redes. A escala de miles de millones de usuarios, el impacto
+acumulado es significativo. Se estima que las aplicaciones móviles generan cerca de 0,75 gramos
+de CO2 equivalente por usuario, y con 5.000 millones de personas usando apps un promedio de
+tres horas diarias, la contribución al 6% de las emisiones digitales de CO2 es considerable. Si
+Internet fuera un país, sería el cuarto mayor contaminante del mundo.
+4.2.2 Principios del desarrollo de software verde (Green Software)
+La Green Software Foundation, que reúne a empresas y desarrolladores comprometidos con la
+creación de software sostenible, identifica tres pilares fundamentales:
+Eficiencia energética. Diseñar software que realice la misma función consumiendo la menor
+cantidad de energía posible. Esto implica optimizar algoritmos para reducir el esfuerzo
+computacional, minimizar procesos en segundo plano innecesarios, comprimir datos para
+reducir las transferencias de red, implementar caching inteligente, y utilizar APIs y bibliotecas
+eficientes.
+Consciencia del carbono (Carbon Awareness). Diseñar aplicaciones que consideren cuándo y
+dónde se ejecutan las tareas intensivas, priorizando momentos y ubicaciones donde la energía
+disponible es más limpia (proveniente de fuentes renovables). Esto incluye, por ejemplo,
+programar sincronizaciones pesadas o descargas cuando el dispositivo está conectado a Wi-Fi y
+cargando.
+Eficiencia de hardware. Desarrollar aplicaciones que extiendan la vida útil del hardware del
+usuario. Las apps livianas que no exigen excesivamente al procesador, la memoria o la batería
+permiten que los usuarios conserven sus dispositivos por más tiempo, reduciendo los residuos
+electrónicos (e-waste).
+
+-- 9 of 11 --
+
+4.2.3 Prácticas concretas de desarrollo sostenible
+Código eficiente. Un código limpio, optimizado y sin dependencias innecesarias consume
+menos CPU y memoria. Esto se traduce directamente en menor consumo de batería y menor
+calor generado. Utilizar algoritmos de ordenamiento eficientes, estructuras de datos adecuadas y
+evitar fugas de memoria son prácticas fundamentales.
+Diseño de interfaz consciente. Utilizar modos oscuros (dark mode) puede reducir el consumo
+energético hasta un 30% en pantallas OLED/AMOLED, ya que los píxeles oscuros consumen
+significativamente menos energía. Elegir paletas de colores de baja energía, utilizar fuentes del
+sistema y minimizar animaciones pesadas también contribuyen.
+Gestión inteligente de datos. Comprimir imágenes y datos, implementar paginación en lugar de
+cargar todos los datos de una vez, utilizar formatos eficientes (WebP en lugar de PNG, por
+ejemplo), y minimizar las solicitudes de red innecesarias.
+Infraestructura en la nube verde. Elegir proveedores de servicios en la nube comprometidos
+con energías renovables (como Google Cloud, que opera con energía 100% renovable, o AWS con
+sus regiones verdes). Utilizar arquitecturas serverless y auto-escalables que optimizan el uso de
+recursos.
+Monitoreo del consumo energético. Utilizar herramientas como el Energy Profiler de Android
+Studio o los Instruments de Xcode para medir el consumo energético, el uso de CPU, la actividad
+de red y el impacto en la batería durante el desarrollo y las pruebas.
+4.2.4 Sostenibilidad del hardware
+Desde la perspectiva del hardware, las grandes empresas están adoptando medidas concretas. El
+68% de los fabricantes de dispositivos Android utilizan materiales reciclados en sus procesos de
+manufactura, mientras que Apple impulsa la fabricación carbono-neutral en toda su línea de
+productos. Las prácticas de reparabilidad y la extensión del ciclo de vida de los dispositivos,
+fomentadas por legislación como el "derecho a reparar" en la Unión Europea, también
+contribuyen a reducir el impacto ambiental del ecosistema móvil.
+4.2.5 El rol del desarrollador
+Los desarrolladores de aplicaciones móviles tienen una responsabilidad directa en la
+sostenibilidad digital. Cada decisión de diseño y desarrollo, desde la elección de una biblioteca
+hasta la frecuencia de sincronización en segundo plano, tiene un impacto ambiental cuando se
+multiplica por millones de usuarios. Adoptar una mentalidad de "software verde" no solo
+beneficia al medio ambiente, sino que también mejora la experiencia del usuario (mayor
+duración de batería, apps más rápidas y fluidas) y puede reducir costos operativos (menor uso de
+servidores y ancho de banda).
+Glosario de Términos Clave
+AOSP: Android Open Source Project, el proyecto de código abierto base de Android.
+
+-- 10 of 11 --
+
+API: Application Programming Interface, interfaz que permite la comunicación entre
+componentes de software.
+ART: Android Runtime, el entorno de ejecución de aplicaciones en Android.
+ARM: Advanced RISC Machines, arquitectura de procesadores dominante en dispositivos
+móviles.
+EAA: European Accessibility Act, legislación europea sobre accesibilidad digital.
+Edge Computing: Procesamiento de datos en el borde de la red, cerca del usuario.
+E-waste: Residuos electrónicos generados por dispositivos descartados.
+Foldable: Dispositivo con pantalla plegable.
+NPU: Neural Processing Unit, unidad dedicada al procesamiento de inteligencia artificial.
+OLED: Organic Light-Emitting Diode, tecnología de pantalla.
+SoC: System on a Chip, chip que integra múltiples componentes (CPU, GPU, modem).
+Sideloading: Instalación de aplicaciones desde fuentes externas a la tienda oficial.
+UFS: Universal Flash Storage, estándar de almacenamiento para dispositivos móviles.
+WCAG: Web Content Accessibility Guidelines, directrices de accesibilidad digital.
+Wearable: Dispositivo electrónico diseñado para ser usado sobre el cuerpo.
+Bibliografía y Fuentes de Referencia
+StatCounter Global Stats – Mobile Operating System Market Share (2025-2026).
+IDC Worldwide Quarterly Mobile Phone Tracker (2025).
+W3C – Web Content Accessibility Guidelines (WCAG) 2.2:
+https://www.w3.org/TR/WCAG22/
+Green Software Foundation: https://greensoftware.foundation/
+Android Developers: https://developer.android.com/
+Apple Developer Documentation: https://developer.apple.com/
+Alloghani, M.A. (2024). Green Mobile App Development: Building Sustainable Products.
+Springer Nature.
+The Shift Project – Lean ICT: Towards Digital Sobriety.
+European Accessibility Act (Directiva 2019/882 de la Unión Europea).
+Nota: Los datos estadísticos presentados en este apunte corresponden a fuentes disponibles
+hasta marzo de 2026. El mercado de dispositivos y aplicaciones móviles evoluciona
+rápidamente, por lo que se recomienda consultar fuentes actualizadas para verificar las cifras
+más recientes.
+
+-- 11 of 11 --
+
